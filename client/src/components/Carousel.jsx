@@ -18,7 +18,7 @@ export default function Carousel() {
   return (
     <div className="container px-4 py-10 mx-auto">
       <Swiper
-        spaceBetween={30}
+        spaceBetween={0}
         centeredSlides={true}
         loop={true}
         autoplay={{
